@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mai's Typo Studio | Typography Design Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-pen-fancy me-2"></i>Mai's Typo Studio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container text-center position-relative">
+            <div class="hero-content">
+                <h1 class="animated-text">Jyo's Typography</h1>
+                <div class="text-reveal-mask">
+                    <p class="subtitle">Transforming Words into Arts and Music</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary btn-lg me-3">
+                        <i class="fas fa-palette me-2"></i>View Our Work
+                    </a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-paper-plane me-2"></i>Get in Touch
+                    </a>
+                </div>
+            </div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="section-subtitle">About Us</span>
+                        <h2 class="section-title">Crafting Digital Typography Excellence</h2>
+                        <p class="lead mb-4">We blend artistry with innovation to create typography that speaks volumes. Our decade of experience brings your brand's voice to life through carefully crafted letterforms and designs.</p>
+                        
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <span class="stat-number">250+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">120+</span>
+                                <span class="stat-label">Happy Clients</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Design Awards</span>
+                            </div>
+                        </div>
+
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-pen-nib"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Custom Typography</h3>
+                                    <p>Bespoke typefaces that capture your brand's unique personality</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-layer-group"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Brand Identity</h3>
+                                    <p>Cohesive visual systems that elevate your brand presence</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="about-image-section">
+                        <div class="about-image-container">
+                            <img src="data:image/png;base64,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" alt="Typography Workshop" class="about-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="number">10+</span>
+                            <span class="text">Years of Excellence</span>
+                        </div>
+                        <div class="floating-shape shape-1"></div>
+                        <div class="floating-shape shape-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="parallax-section">
+        <div class="parallax-bg"></div>
+        <div class="container">
+            <h2 class="section-title text-center">Featured Works</h2>
+            <div class="portfolio-container">
+                <div class="row portfolio-row">
+                    <div class="col-md-4 portfolio-col">
+                        <div class="portfolio-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFBH32OYORRPLU5tICQ2Oo5NUynp_OoUdyuA&s" alt="Typography Project" class="img-fluid">
+                            <div class="overlay">
+                                <h3>Modern Elegance</h3>
+                                <p>Luxury brand typography</p>
+                                <a href="#" class="btn btn-light btn-sm mt-3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 portfolio-col">
+                        <div class="portfolio-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF1d3aVBEesA_hoBUSTqa96MB7H_PqrGA75A&s" alt="Brand Typography" class="img-fluid">
+                            <div class="overlay">
+                                <h3>Bold Statement</h3>
+                                <p>Editorial design</p>
+                                <a href="#" class="btn btn-light btn-sm mt-3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 portfolio-col">
+                        <div class="portfolio-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6oLtbuVPbaZGfePJ3MBwkB_WRvHfG1WecYw&s" alt="Typography Art" class="img-fluid">
+                            <div class="overlay">
+                                <h3>Creative Flow</h3>
+                                <p>Artistic typography</p>
+                                <a href="#" class="btn btn-light btn-sm mt-3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add some spacing div -->
+    <div class="section-spacer"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container text-center">
+            <h2 class="section-title">Start Your Project</h2>
+            <p class="lead mb-5">Ready to transform your brand with stunning typography?</p>
+            <div class="contact-cards row justify-content-center g-4">
+                <div class="col-md-4">
+                    <div class="contact-card hover-float">
+                        <i class="fas fa-envelope fa-2x mb-3"></i>
+                        <h3>Email Us</h3>
+                        <p>jyomyself@gmail.com</p>
+                        <a href="mailto:hello@luxtypo.studio" class="btn btn-primary">Send Message</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card hover-float">
+                        <i class="fas fa-phone fa-2x mb-3"></i>
+                        <h3>Contact Us</h3>
+                        <p>9642185857</p>
+                        <a href="tel:+15551234567" class="btn btn-primary">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <h4 class="text-light mb-4">Jyo's Typo Studio</h4>
+                    <p class="mb-0">Crafting beautiful typography since 2015</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="social-icons">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-end">
+                    <p class="mb-0">&copy; 2025 Mai's Typo Studio. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
